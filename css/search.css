@@ -1,0 +1,26 @@
+
+body {
+    background-image: pink;
+    display: flex; /* uses flexbox which responds to differnt screen sizes */
+    align-items: center; /* vertically center */
+    justify-content: center; /* horizonatally center */
+    height: 100vh; /* setting body height to 100% */
+    margin = 0;
+}
+
+.search .input{
+    height: 50px;
+    width: 200px;
+    font-size 18px;
+    padding: 15px;
+    border: = 0;
+    background-color: white;
+}
+
+.btn {
+    background-color: white;
+    border: 0;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+}
