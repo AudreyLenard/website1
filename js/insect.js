@@ -8,7 +8,7 @@ const message = document.getElementById('message')
 
 let seconds = 0
 let score = 0
-let selected_insect
+let selected_insect = 0
 
 start_btn.addEventListener('click', () => {
     screens[0].classList.add('up')
@@ -41,4 +41,11 @@ function increaseTime() {
     }
     timeEl.innerHTML = `Time: ${m}:${s}`
     seconds = seconds + 1;
+}
+
+
+function createInsect(){
+    const insect = document.createElement('div')
+    insect.classList.add('insect')
+    insect.innerHTML = `<img src="${selected_insect.src}"   >`
 }
