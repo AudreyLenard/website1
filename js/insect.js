@@ -13,5 +13,8 @@ start_btn.addEventListener('click', () => {
 choose_insect_btns.forEach(btn => {
     btn.addEventListener('click', () => {
         screens[1].classList.add('up')
+        const img = btn.querySelector('img')
+        const scr = img.getAttribute('src')
+        const alt = img.getAttribute('alt')
     })
 })
