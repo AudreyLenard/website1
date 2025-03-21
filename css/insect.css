@@ -70,6 +70,11 @@ a {
     height: 150px;
 }
 
+.choose-insect-btn:hover {
+    background-color: #fff;
+    color: #516dff;
+}
+
 .choose-insects-btn img {
     width: 100px;
     height: 100px;
@@ -91,10 +96,14 @@ a {
 }
 
 .time {
+    position: absolute;
+    top: 20px;
     left: 20px;
 }
 
 .score {
+    position: absolute;
+    top: 20px;
     right: 20px;
 }
 
