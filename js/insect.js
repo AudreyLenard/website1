@@ -26,6 +26,10 @@ choose_insect_btns.forEach(btn => {
     })
 })
 
+
+createInsect()
+createInsect()
+
 function startGame() {
     setInterval(increaseTime, 1000)
 }
@@ -57,6 +61,7 @@ function createInsect(){
     game_container.appendChild(insect)
 }
 
+    insect.addEventListener()
 
 function getRandomLocation(){
     const width = window.innerWidth
