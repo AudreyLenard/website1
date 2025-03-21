@@ -46,19 +46,23 @@ function increaseTime() {
 
 createInsect()
 
+
 function createInsect(){
     const insect = document.createElement('div')
     insect.classList.add('insect')
     insect.innerHTML = `<img src="${selected_insect.src}" alt = "${selected_insect.alt}">`
-
+    const {x, y} = getRandomLocation()
+    insect.style.top = `${y}px`
+    insect.style.left = `${x}px`
     game_container.appendChild(insect)
 }
-
 
 
 function getRandomLocation(){
     const width = window.innerWidth
     const height = window.innerHeight
     console.log(Math.random())
-    const x = Math.random() *
+    const x = Math.random() * width
+    const y = Math.random() * height
+    return {x, y}
 }
