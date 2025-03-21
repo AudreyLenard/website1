@@ -31,6 +31,14 @@ h1 {
     opacity: 0.9;
 }
 
+.screen.up {
+    margin-top: -100vh;
+}
+
+a {
+    color: white;
+}
+
 .screen {
     display: flex;
     flex-direction: column;
