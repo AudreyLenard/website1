@@ -77,5 +77,5 @@ function catchInsect() {
 }
 
 function increaseScore(){
-    
+
 }
