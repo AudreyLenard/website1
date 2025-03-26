@@ -49,6 +49,10 @@ a {
     color: white;
 }
 
+h1 {
+    line-height: 1.4;
+}
+
 .insects-list {
     display: flex;
     flex-wrap: wrap;
