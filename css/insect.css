@@ -104,7 +104,7 @@ h1 {
 
 .message {
     line-height: 1.7;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     padding: 20px;
     z-index: 100;
@@ -112,16 +112,22 @@ h1 {
     position: absolute;
     top: 20%;
     opacity: 0;
+    transform: translate(-50%, 150%)
+    trans
 }
 
 
-.time, .score {
+.message.visable {
+    transform: translate(-50%, 150%)
+    opacity: 1;
+}
+
+
+.score {
     position: absolute;
     top: 20px;
 }
-.message.visable {
-    opacity: 1;
-}
+
 
 
 .insect {
