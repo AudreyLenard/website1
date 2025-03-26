@@ -90,11 +90,6 @@ h1 {
     position: relative;
 }
 
-.time, .score {
-    position: absolute;
-    top: 20px;
-}
-
 .time {
     position: absolute;
     top: 20px;
@@ -106,6 +101,15 @@ h1 {
     top: 20px;
     right: 20px;
 }
+
+.time, .score {
+    position: absolute;
+    top: 20px;
+}
+
+
+
+
 
 .message {
     line-height: 1.7;
