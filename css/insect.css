@@ -81,12 +81,6 @@ h1 {
     color: #516dff;
 }
 
-.choose-insects-btn img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
-}
-
 .choose-insect-btn:active {
     background-color: rgba(255, 255, 255, 0.7);
 }
