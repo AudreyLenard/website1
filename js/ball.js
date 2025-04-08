@@ -56,3 +56,5 @@ document.addEventListener('keyup', (event) => {
     }
     LPaddle.style.top = `${LPaddleYPosition}px`
 })
+
+
