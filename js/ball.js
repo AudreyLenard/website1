@@ -57,4 +57,9 @@ document.addEventListener('keyup', (event) => {
     LPaddle.style.top = `${LPaddleYPosition}px`
 })
 
-
+let ballTop = ballPosition
+let ballBottom = ballYPosition + 2 * ballRadius
+let ballLeft = ballXPosition
+let LPaddleTop = LPaddleYPosition
+let LPaddleBottom = LPaddleYPosition + LPaddleHeight
+let LPaddleRight = LPaddleXPosition + LPaddleWidth
