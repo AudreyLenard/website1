@@ -1,16 +1,21 @@
-const ball = document.createElement('div')
-document.body.appendChild(ball)
+const windowHeight = window.innerHeight
+const windowWidth = window.innerWidth
+
+//lpaddle
 const LPaddle = document.createElement('div')
 document.body.appendChild(LPaddle)
 let LPaddleWidth = 10
 let LPaddleHeight = 100
-let 
+let LPaddleSpeed = 5
+
 const ballRadius = 30
 const windowHeight = window.innerHeight
 const windowWidth = window.innerWidth
 let ballXPosition = windowWidth/2 - ballRadius
 let ballSpeed = 5
 let ballXDirection = 1
+const ball = document.createElement('div')
+document.body.appendChild(ball)
 
 let score = 0 //display the score and increase score by one everytime the ball hits the paddle
 let level = 1 //display the level and increase the level by one everytime the score increases by 10
